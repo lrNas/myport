@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Ubuntu&display=swap');
+
+
+html{
+    height: 100%;
+    width: 100%;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+}
+
+#header,#footer{
+    position: fixed;
+    background: url("img/headerback.png") repeat fixed;
+    background-size: 100vmax;
+    justify-content: space-evenly;
+    background-position-x: right;
+    flex-direction: row;
+    min-width: 100%;
+    max-width: 100%;
+    display:flex;    
+}
+#header{
+    padding: 0vh;
+    height: 12vmin;
+    border-bottom-style: solid rgba(255, 0, 0, 0.123);
+    background-position-y: top;
+    padding-top: 1vh;
+    top: 0pt;
+    left: 0pt;
+    
+}
+#footer{
+    background-position-y: bottom;
+    height:28vmin; 
+    bottom: 0pt;
+    left: 0pt;
+}
+#logo
+{   
+    padding-left: 1vmin;
+    padding-top: 1vmax;
+    width: 7vmin;
+    height: 7vmin;
+}
+.section{    
+    color:black;
+    flex-wrap: wrap;
+    padding: 12vh 10vw;
+    margin: 0vh;
+    width: 75%;
+     
+}
+#nome
+{
+    margin-top: 1vh;    
+    display: flex;
+    flex-direction: column;
+
+}
+.nomeit{
+    margin-top:0vh;
+    margin-bottom: 0vh;
+    margin-left: 0.5vw;
+    display: block;
+}
+#hlinks{
+    margin-top: 5vmin;
+    display: flex;
+    padding-left:0.5vmin ;
+    font-size: 3.5vmin;
+    font-weight: bolder;
+}
+.hli{
+    color: white;
+    text-decoration-line: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 5vh;
+    border-radius: 1vmin;
+}
+.hli:hover{
+    background-color: rgba(160, 160, 160, 0.281);
+}
+
+#details{
+    position: fixed;
+    right: 5vmin;
+    bottom: 0vmax;
+    font-size: 1.4vmax;
+    flex-direction: row;
+}
+#contsitemap{
+    position: fixed;
+    bottom: 0pt;
+    left: 10vmin;
+    font-size: 1.4vmax;
+    display: flex;
+    flex-direction: column;
+
+}
+#titlesitemap{
+    margin: 0vmax;
+    font-size: 3vmax;
+}
+
+#divsitemap{
+    display: flex;
+    padding-left: 3vmax;
+}
+#ulsitemap{
+    display: flex;
+    font-size: 1.5vmax;
+    padding: 0vmax;
+    margin: 0vmax;
+}
+#subulsitemap{
+    font-size: 1.5vmax;
+    padding: 0vmax;
+    padding-left: 2.5vmax;
+    padding-bottom: 1vmax;
+
+}
+#lisitemap{
+    margin:0vmax;
+}
+
+h1{
+    font-size: 4.5vmin;
+}
+h2{
+    font-size: 4vmin;
+}
+p{
+    font-size: 3.5vmin;
+}
+
+@media screen and (max-width: 710px) {
+    #details{
+      display: none;
+    }
+    #footer{
+        height: 20vmax;
+    }
+    #contsitemap{
+        left: 5vmax;
+    }
+    #header{
+        height: 10vmax;
+    }
+  } 
+
+@media screen and (max-width: 270px) {
+    #details{
+      display: none;
+    }
+    #footer{
+        display: none;
+        height: 20vmax;
+    }
+  } 
+
+
+  .slidercontainer{
+      margin:0%;
+      padding:0%
+
+  }
+  .slide{
+      width: 60vmax;
+  }
