@@ -5,59 +5,70 @@ html{
     height: 100%;
     width: 100%;
     color:white;
+    display: flex;
     font-family: 'Dosis', sans-serif;
 }
 body{
     height: 100%;
     width: 100%;
-    margin: 0vw;
+    margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
+    justify-content: space-between;
     
 }
 
 #header,#footer{
+    display: flex;
     position: fixed;
     background: url("img/headerback.png") repeat fixed;
     background-size: 100vmax;
     justify-content: space-evenly;
     background-position-x: right;
-    flex-direction: row;
     min-width: 100%;
-    max-width: 100%;
-    display:flex;    
+    max-width: 100%;  
 }
 #header{
+    display: flex;
     padding: 0vh;
-    height: 12vmin;
+    justify-content: space-around;
     border-bottom-style: solid rgba(255, 0, 0, 0.123);
     background-position-y: top;
     padding-top: 1vh;
+    padding-bottom: 1vh;
     top: 0pt;
     left: 0pt;
     
 }
+.headeritem{
+    display: flex;
+    margin-bottom: 0%;
+}
 #footer{
+    display: flex;
     background-position-y: bottom;
     height:28vmin; 
     bottom: 0pt;
     left: 0pt;
 }
 #logo
-{   
+{   display: flex;
     padding-left: 1vmin;
     padding-top: 1vmax;
     width: 7vmin;
     height: 7vmin;
 }
-.section{    
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: left;    
     color:black;
     flex-wrap: wrap;
     padding: 12vh 10vw;
     margin: 0vh;
-    width: 75%;
      
 }
 #nome
@@ -85,7 +96,15 @@ body{
     text-decoration-line: none;
     padding-left: 1vw;
     padding-right: 1vw;
-    margin-bottom: 5vh;
+    margin-bottom: 0%;
+    border-radius: 1vmin;
+}
+.himg{
+color: white;
+    text-decoration-line: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 0%;
     border-radius: 1vmin;
 }
 .hli:hover{
@@ -168,13 +187,3 @@ p{
         height: 20vmax;
     }
   } 
-
-
-  .slidercontainer{
-      margin:0%;
-      padding:0%
-
-  }
-  .slide{
-      width: 60vmax;
-  }

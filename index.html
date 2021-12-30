@@ -20,6 +20,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="stylesheet" href="slider.css">
     <meta name="theme-color" content="#ffffff">
     <title>Lucas Nascimento - Dev. Fullstack</title>
     <script src="./titlescript.js"></script>
@@ -28,16 +29,23 @@
 <body>
     <header id="header">
         <img src="./img/logo.png" id="logo">
-        <div id="nome">
+        <div id="nome" class="headeritem">
             <h1 class="nomeit">Lucas Nascimento</h1>
             <p class="nomeit">Dev. Fullstack</p>
         </div>
-            <ul type= "none"id="hlinks">
-                <li class="hli"><a href="" class="hli"> Habilidades</a></li>
-                <li class="hli"><a href="" class="hli"> Jornada</a></li>
-                <li class="hli"><a href="" class="hli"> Contato</a></li>
+            <ul type= "none"id="hlinks" class="headeritem">
+                <li class="hli"><a href="" class="himg"> Habilidades</a></li>
+                <li class="hli"><a href="" class="himg"> Jornada</a></li>
+                <li class="hli"><a href="" class="himg"> Contato</a></li>
             </ul>
         </header>
+    <section class="section">
+        <div id="carcont">
+            <img src="./img/imgscarrousel/img1.png" alt="São Paulo" class="itimg">
+            <img src="./img/buttons/w-chevron_left.svg" alt="Botão Voltar" onclick="voltar()"class="btimg voltar">        
+            <img src="./img/buttons/w-chevron_right.svg" alt="Botão Avançar" onclick="avancar()" class="btimg avancar">
+        </div>
+    </section>
     <main class="section">
         
         <!-- slide -->
