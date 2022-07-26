@@ -1,0 +1,29 @@
+#carcont{
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    width:35vmax;
+    height:20vmax;
+    background-size: 100% 100%;
+    border-radius: 1vmin;
+    background-position: center;
+}
+.btimg{
+    margin: 0 1vmax;
+    border-radius: 1vmin;
+    z-index: -0;
+    background-color:white;
+    width: fit-content;
+    height: fit-content;
+}
+#labelcontainer{
+    display: flex;
+    height: 100%;
+}
+#label{
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 1vmin;
+    font-weight:bolder;
+    border-radius: 1vmin;
+    align-self: flex-end;
+}

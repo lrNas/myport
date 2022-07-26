@@ -1,0 +1,35 @@
+#footer{
+    background: url("../img/headerback.png") repeat fixed;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    display: flex;
+    height:fit-content; 
+    justify-content: space-evenly;
+    left: 0pt;
+    bottom: 0;
+    margin:0;
+    bottom: -10vmax;
+    max-width: 100%;  
+    min-width: 100%;
+    padding-bottom: 10vmax;
+}
+#ulsitemap li{
+    background-color: none;
+    list-style:none;
+}
+
+.hli.f{
+    padding:0;
+}
+#lisitemap{
+    padding-top: 1vmax;
+}
+#contsitemap{
+    margin-left: 1vmax;
+}
+#details li{
+    
+    font-size: 2vmax;
+    margin-right: 1vmax;
+}

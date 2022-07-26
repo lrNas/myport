@@ -1,0 +1,33 @@
+
+#footer{
+    position: unset;
+    width: fit-content;
+    padding: 0;
+}
+#ulsitemap{
+    -moz-column-count: 2;
+    -moz-column-gap: 1vmax;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1vmax;
+    column-count: 2;
+    column-gap: 20px;
+}
+.hli{
+    font-size: 1.5vmax;
+    padding: 0;
+}
+.section{
+    padding-bottom: 30vmax;
+}
+#contsitemap{
+    margin:2vmin 0;
+    bottom: 0;
+}
+.section{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#carcont{
+    width:45vmax;
+    height:25vmax;
+}

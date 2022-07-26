@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
@@ -20,11 +20,19 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <link rel="stylesheet" href="slider.css">
     <meta name="theme-color" content="#ffffff">
     <title>Lucas Nascimento - Dev. Fullstack</title>
-    <script src="./titlescript.js"></script>
-   <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/content.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="./styles/tablets.css" /> 
+    <link rel="stylesheet" media="(min-width: 1000px)" href="./styles/desktops.css" /> 
+    <script src="./scripts/titlescript.js"></script>
+
+
+
 </head>
 <body>
     <header id="header">
@@ -39,18 +47,15 @@
                 <li class="hli"><a href="" class="himg"> Contato</a></li>
             </ul>
         </header>
-    <section class="section">
+    <main class="section"> 
+        <h2>Principais habilidades</h2>
         <div id="carcont">
-            <img src="./img/imgscarrousel/img1.png" alt="São Paulo" class="itimg">
-            <img src="./img/buttons/w-chevron_left.svg" alt="Botão Voltar" onclick="voltar()"class="btimg voltar">        
-            <img src="./img/buttons/w-chevron_right.svg" alt="Botão Avançar" onclick="avancar()" class="btimg avancar">
+            <button class="btimg voltar" id="voltar" type="button"><img src="./img/buttons/chevron_left.svg"></button>
+            <div id="labelcontainer">
+                <p id="label"></p>
+            </div>        
+            <button class="btimg avancar" id="avancar" type="button"><img src="./img/buttons/chevron_right.svg"></button>
         </div>
-    </section>
-    <main class="section">
-        
-        <!-- slide -->
-        
-        <!-- end Slide-->
 
         <h2>Main Paragrafo</h2>
         <p>
@@ -77,27 +82,19 @@
             <h2 id="titlesitemap">Mapa do Site</h2>
             <div id="divsitemap">
                 <ul id="ulsitemap">
-                    <li id="lisitemap"><a href="" class="hli"> Habilidades</a>
+                    <li id="lisitemap"><a href="" class="hli f"> Habilidades</a>
                         <ul id="subulsitemap" type="none">
-                            <li><a href="" class="hli"> Conhecimentos</a></li>
-                            <li><a href="" class="hli"> Certificações</a></li>
-                            <li><a href="" class="hli"> Experiências da vida</a></li>
+                            <li><a href="" class="hli f"> Conhecimentos</a></li>
+                            <li><a href="" class="hli f"> Cursos</a></li>
+                            <li><a href="" class="hli f"> Softskills</a></li>
+
                         </ul>
                     </li>
-                    <li id="lisitemap"><a href="" class="hli"> Minha Jornada</a>
+                    <li id="lisitemap"><a href="" class="hli f"> Minha Jornada</a>
                         <ul id="subulsitemap" type="none">
-                            <li><a href="" class="hli"> Cusos que fiz</a></li>
-                            <li><a href="" class="hli"> Carreira</a></li>
-                            <li><a href="" class="hli"> Planos para o futuro</a></li>
-                            <li><a href="" class="hli"> Portifólio</a></li>
-                        </ul>
-                    </li>
-                    <li id="lisitemap"><a href="" class="hli"> Contato</a>
-                        <ul id="subulsitemap" type="none">
-                            <li><a href="" class="hli"> Onde me achar?</a></li>
-                            <li><a href="" class="hli"> Fale direto comigo</a></li>
-                            <li><a href="" class="hli"> Fale com meu robô</a></li>
-                            
+                            <li><a href="" class="hli f"> Carreira</a></li>
+                            <li><a href="" class="hli f"> Planos</a></li>
+                            <li><a href="" class="hli f"> Portifólio</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -107,11 +104,12 @@
                 <ul type="none" >
                     <strong><li>Lucas Rodrigues do Nascimento</li>
                     </strong><li>lr.nas1894@gmail.com</li>
-                    <li>@twitter</li>
+                    <!-- <li>@twitter</li>
                     <li>@instagram</li>
-                    <li>@youtube</li>
+                    <li>@youtube</li> -->
                 </ul>
             </div>
     </footer>
+    <script src="./scripts/carrossel.js"></script>
 </body>
 </html>

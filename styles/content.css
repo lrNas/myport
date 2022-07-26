@@ -1,0 +1,22 @@
+
+.section{
+    margin: 0vh;
+    margin-top: 10vmax;
+    display: flex;
+    align-items: center;
+    justify-content: left;    
+    color:black;
+    flex-wrap: wrap;
+    padding: 12vh 10vw;
+     
+}
+
+h1{
+    font-size: 4.5vmin;
+}
+h2{
+    font-size: 4vmin;
+}
+p{
+    font-size: 3.5vmin;
+}
