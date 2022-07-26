@@ -24,3 +24,59 @@ body{
     flex-direction: column;
     flex-wrap:wrap
 }
+
+#eu{
+    margin: 1vmax;
+    border-radius: 100%;
+    width:30vmin;
+    height: 30vmin;
+    margin-left: 2vmax;
+}
+.present{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(203, 144, 221, 0.171);
+    border-radius: 2vmax;
+}
+.present p{
+    text-align: center;
+    margin-left: 2vmax;
+}
+.subpresent{
+    display: flex;
+    justify-content:space-around;
+}
+
+.subpresent{
+    height:fit-content;
+    align-items:center;
+}
+.presentation{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: fit-content;
+}
+.hobbies{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobbycard{
+    display: flex;
+    flex-direction: column;
+    margin:1vmin;
+    padding:1vmin;
+    border-radius: 1vmin;
+    background-color: rgba(203, 144, 221, 0.171);
+    width: fit-content;
+    justify-content: center;
+}
+.hobbycard img{
+    height: 40vmin;
+    width: auto; 
+}

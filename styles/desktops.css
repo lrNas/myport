@@ -27,7 +27,15 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-#carcont{
-    width:45vmax;
-    height:25vmax;
+
+.present{
+    width: 60% ;
+}
+.hobbies{
+    flex-wrap: nowrap;
+}
+
+.hobbycard img{
+    height: 20vmin;
+    width: auto; 
 }
