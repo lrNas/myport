@@ -546,11 +546,15 @@
             Me envie um email no formulário abaixo!
         </p>
         <form id="form" action="https://formspree.io/f/xknydadl" method="POST">
-  <label>
+            <label for="nome">
+                Seu nome:
+            </label>
+                <input type="text" name="nome">
+  <label for="email">
     Seu email:
 </label>
     <input type="email" name="email">
-  <label>
+  <label for="message">
     Sua mensagem:
 </label>
     <textarea name="message"></textarea>
