@@ -43,7 +43,7 @@ let count = -1
 
 function setImagem(count){
     const imagemCarr= document.getElementById('carcont')
-    imagemCarr.style.backgroundImage = `url('/img/imgscarrousel/${carrcontent[count].url}')`
+    imagemCarr.style.backgroundImage = `url('https://lrnas.github.io/portifolio/img/imgscarrousel/${carrcontent[count].url}')`
     const label = document.getElementById('label')
     label.innerHTML = carrcontent[count].texto
 }
