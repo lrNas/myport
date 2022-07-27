@@ -35,6 +35,10 @@ const carrcontent = [
     {
         "url": "img8.png",
         "texto": "Java - Linguagem forte no mercado para desenvolvimento orientado à objetos"
+    },
+    {
+        "url": "img7.jpg",
+        "texto": "IOT - Internet das coisas, intercomunicando itens inteligentes e automando coisas do dia a dia."
     }
 ]
 let count = -1
