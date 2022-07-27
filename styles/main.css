@@ -80,3 +80,41 @@ body{
     height: 40vmin;
     width: auto; 
 }
+li{
+    font-size: 2vmax;
+}
+h3{
+    font-size: 2vmax;
+}
+h4{
+    font-size: 1.7vmax;
+}
+#listaCarreira{
+    list-style: none;
+}
+#listaCursos{
+    list-style: none;
+}
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-size: 1.7vmax;
+    padding-top: 1vmax;
+}
+#form textarea{
+    margin-bottom: 1vmax;
+    width: 30vmax;
+    height: 10vmax;
+    resize: none;
+}
+#form button{
+    font-size: 1.2vmax;
+    background-color: rgb(118, 78, 131);
+    border-radius: 1vmin;
+    padding: 1vmin;
+    color: white;
+    font-weight: bolder;
+}

@@ -36,6 +36,30 @@
 }
 
 .hobbycard img{
-    height: 20vmin;
+    height: 18vmin;
     width: auto; 
+}
+#listaHabilidades{
+    -moz-column-count: 2;
+    -moz-column-gap: 2vmax;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2vmax;
+    column-count: 2;
+    column-gap: 3vmax;
+}
+#listaCursos{
+    -moz-column-count: 4;
+    -moz-column-gap: 2vmax;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 2vmax;
+    column-count: 4;
+    column-gap: 3vmax;
+}
+#listaCursos li{
+    margin-top: 2;
+}
+#listaCursos ul{
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
 }
